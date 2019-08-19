@@ -1,0 +1,12 @@
+<table border="1">
+  <tr>
+    <th>Name</th>
+    <th>Price</th>
+    <th>Category</th>
+  </tr>
+  <tr *ngFor = "let food of foods">
+    <td>{{food.name}}</td>
+    <td>{{food.price}}</td>
+    <td>{{food.category.name}}</td>
+  </tr>
+</table>

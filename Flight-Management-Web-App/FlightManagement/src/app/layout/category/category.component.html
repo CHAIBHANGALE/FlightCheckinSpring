@@ -1,0 +1,10 @@
+<table border="1">
+  <tr>
+    <th>Name</th>
+    <th>IsActive</th>
+  </tr>
+  <tr *ngFor = "let category of categories">
+    <td>{{category.name}}</td>
+    <td>{{category.isActive}}</td>
+  </tr>
+</table>
